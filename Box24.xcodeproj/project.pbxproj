@@ -8,20 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		5B95250F1F2CEF8400012FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95250E1F2CEF8400012FCC /* AppDelegate.swift */; };
-		5B9525111F2CEF8400012FCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9525101F2CEF8400012FCC /* ViewController.swift */; };
+		5B9525111F2CEF8400012FCC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9525101F2CEF8400012FCC /* HomeViewController.swift */; };
 		5B9525141F2CEF8400012FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9525121F2CEF8400012FCC /* Main.storyboard */; };
 		5B9525161F2CEF8400012FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9525151F2CEF8400012FCC /* Assets.xcassets */; };
 		5B9525191F2CEF8400012FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9525171F2CEF8400012FCC /* LaunchScreen.storyboard */; };
+		5B9525241F2CF3A600012FCC /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9525231F2CF3A600012FCC /* HomeCell.swift */; };
+		5B9525261F2CF42200012FCC /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9525251F2CF42200012FCC /* UIView+Anchors.swift */; };
+		5B9525281F2CF7CB00012FCC /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9525271F2CF7CB00012FCC /* HomeModel.swift */; };
+		5B95252A1F2D08F300012FCC /* VideoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9525291F2D08F300012FCC /* VideoListController.swift */; };
+		5B95252C1F2D0AAA00012FCC /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95252B1F2D0AAA00012FCC /* VideoCell.swift */; };
+		5BA5A0E81F3FAF8000E1F8EB /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5A0E71F3FAF8000E1F8EB /* VideoViewController.swift */; };
+		5BA5A0EF1F3FEE3F00E1F8EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5A0EE1F3FEE3F00E1F8EB /* AVFoundation.framework */; };
+		5BA5A0F11F3FEE4C00E1F8EB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5A0F01F3FEE4C00E1F8EB /* AVKit.framework */; };
+		5BF2363F1F2D3E4300DB4137 /* FitnessTechniqueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2363E1F2D3E4300DB4137 /* FitnessTechniqueController.swift */; };
+		5BF236411F2D425300DB4137 /* FitnessTechniqueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF236401F2D425300DB4137 /* FitnessTechniqueModel.swift */; };
+		5BF236431F2D42B700DB4137 /* MoreWorkoutsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF236421F2D42B700DB4137 /* MoreWorkoutsCell.swift */; };
+		5BF236451F2D4F2100DB4137 /* TechniqueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF236441F2D4F2100DB4137 /* TechniqueController.swift */; };
+		5BF236471F2D502300DB4137 /* TechniqueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF236461F2D502300DB4137 /* TechniqueModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B95250B1F2CEF8400012FCC /* Box24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Box24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B95250E1F2CEF8400012FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B9525101F2CEF8400012FCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B9525101F2CEF8400012FCC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5B9525131F2CEF8400012FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B9525151F2CEF8400012FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B9525181F2CEF8400012FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B95251A1F2CEF8400012FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9525231F2CF3A600012FCC /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		5B9525251F2CF42200012FCC /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		5B9525271F2CF7CB00012FCC /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		5B9525291F2D08F300012FCC /* VideoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListController.swift; sourceTree = "<group>"; };
+		5B95252B1F2D0AAA00012FCC /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		5BA5A0E71F3FAF8000E1F8EB /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		5BA5A0EA1F3FBBE600E1F8EB /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		5BA5A0EE1F3FEE3F00E1F8EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5BA5A0F01F3FEE4C00E1F8EB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		5BF2363E1F2D3E4300DB4137 /* FitnessTechniqueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessTechniqueController.swift; sourceTree = "<group>"; };
+		5BF236401F2D425300DB4137 /* FitnessTechniqueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessTechniqueModel.swift; sourceTree = "<group>"; };
+		5BF236421F2D42B700DB4137 /* MoreWorkoutsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreWorkoutsCell.swift; sourceTree = "<group>"; };
+		5BF236441F2D4F2100DB4137 /* TechniqueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechniqueController.swift; sourceTree = "<group>"; };
+		5BF236461F2D502300DB4137 /* TechniqueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechniqueModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA5A0F11F3FEE4C00E1F8EB /* AVKit.framework in Frameworks */,
+				5BA5A0EF1F3FEE3F00E1F8EB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,7 @@
 			children = (
 				5B95250D1F2CEF8400012FCC /* Box24 */,
 				5B95250C1F2CEF8400012FCC /* Products */,
+				5BA5A0ED1F3FEE3F00E1F8EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,58 @@
 			isa = PBXGroup;
 			children = (
 				5B95250E1F2CEF8400012FCC /* AppDelegate.swift */,
-				5B9525101F2CEF8400012FCC /* ViewController.swift */,
 				5B9525121F2CEF8400012FCC /* Main.storyboard */,
+				5B9525201F2CEF8C00012FCC /* View */,
+				5B9525211F2CEF9400012FCC /* Controller */,
+				5B9525221F2CEF9700012FCC /* Model */,
 				5B9525151F2CEF8400012FCC /* Assets.xcassets */,
 				5B9525171F2CEF8400012FCC /* LaunchScreen.storyboard */,
 				5B95251A1F2CEF8400012FCC /* Info.plist */,
+				5BA5A0EA1F3FBBE600E1F8EB /* video.mp4 */,
 			);
 			path = Box24;
+			sourceTree = "<group>";
+		};
+		5B9525201F2CEF8C00012FCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B9525231F2CF3A600012FCC /* HomeCell.swift */,
+				5B9525251F2CF42200012FCC /* UIView+Anchors.swift */,
+				5B95252B1F2D0AAA00012FCC /* VideoCell.swift */,
+				5BF236421F2D42B700DB4137 /* MoreWorkoutsCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5B9525211F2CEF9400012FCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B9525101F2CEF8400012FCC /* HomeViewController.swift */,
+				5B9525291F2D08F300012FCC /* VideoListController.swift */,
+				5BF2363E1F2D3E4300DB4137 /* FitnessTechniqueController.swift */,
+				5BF236441F2D4F2100DB4137 /* TechniqueController.swift */,
+				5BA5A0E71F3FAF8000E1F8EB /* VideoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5B9525221F2CEF9700012FCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B9525271F2CF7CB00012FCC /* HomeModel.swift */,
+				5BF236401F2D425300DB4137 /* FitnessTechniqueModel.swift */,
+				5BF236461F2D502300DB4137 /* TechniqueModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5BA5A0ED1F3FEE3F00E1F8EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5A0F01F3FEE4C00E1F8EB /* AVKit.framework */,
+				5BA5A0EE1F3FEE3F00E1F8EB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +212,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9525111F2CEF8400012FCC /* ViewController.swift in Sources */,
+				5B9525111F2CEF8400012FCC /* HomeViewController.swift in Sources */,
+				5BF236411F2D425300DB4137 /* FitnessTechniqueModel.swift in Sources */,
+				5BF236471F2D502300DB4137 /* TechniqueModel.swift in Sources */,
+				5B95252C1F2D0AAA00012FCC /* VideoCell.swift in Sources */,
+				5BF2363F1F2D3E4300DB4137 /* FitnessTechniqueController.swift in Sources */,
+				5BA5A0E81F3FAF8000E1F8EB /* VideoViewController.swift in Sources */,
+				5B95252A1F2D08F300012FCC /* VideoListController.swift in Sources */,
+				5B9525261F2CF42200012FCC /* UIView+Anchors.swift in Sources */,
+				5BF236431F2D42B700DB4137 /* MoreWorkoutsCell.swift in Sources */,
+				5BF236451F2D4F2100DB4137 /* TechniqueController.swift in Sources */,
+				5B9525241F2CF3A600012FCC /* HomeCell.swift in Sources */,
+				5B9525281F2CF7CB00012FCC /* HomeModel.swift in Sources */,
 				5B95250F1F2CEF8400012FCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +390,7 @@
 				5B95251F1F2CEF8400012FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
