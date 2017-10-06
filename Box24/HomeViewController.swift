@@ -116,8 +116,8 @@ class HomeViewController: UICollectionViewController, UICollectionViewDelegateFl
     }
     
     private func setupRemainingNavItems() {
-        let titleFormatted = NSMutableAttributedString(string: "BOX24 FITNESS", attributes: [NSFontAttributeName:UIFont(name: "HelveticaNeue", size: 32.0)!])
-        titleFormatted.addAttribute(NSForegroundColorAttributeName, value: UIColor(r: 251, g: 98, b: 78), range: NSRange(location:3,length:2))
+        let titleFormatted = NSMutableAttributedString(string: "BOX24 FITNESS", attributes: [NSAttributedStringKey.font:UIFont(name: "HelveticaNeue", size: 32.0)!])
+        titleFormatted.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor(r: 251, g: 98, b: 78), range: NSRange(location:3,length:2))
         
         let navLabel = UILabel()
         navLabel.textColor = UIColor.darkGray

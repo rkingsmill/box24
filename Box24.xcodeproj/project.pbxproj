@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B949EF11F819FB700D71F58 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B949EF01F819FB700D71F58 /* VideoPlayerView.swift */; };
+		5B949EF31F81A12100D71F58 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B949EF21F81A12100D71F58 /* VideoManager.swift */; };
 		5B95250F1F2CEF8400012FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95250E1F2CEF8400012FCC /* AppDelegate.swift */; };
 		5B9525111F2CEF8400012FCC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9525101F2CEF8400012FCC /* HomeViewController.swift */; };
 		5B9525141F2CEF8400012FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9525121F2CEF8400012FCC /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B949EF01F819FB700D71F58 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		5B949EF21F81A12100D71F58 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 		5B95250B1F2CEF8400012FCC /* Box24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Box24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B95250E1F2CEF8400012FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B9525101F2CEF8400012FCC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				5B9525251F2CF42200012FCC /* UIView+Anchors.swift */,
 				5B95252B1F2D0AAA00012FCC /* VideoCell.swift */,
 				5BF236421F2D42B700DB4137 /* MoreWorkoutsCell.swift */,
+				5B949EF01F819FB700D71F58 /* VideoPlayerView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 				5B9525271F2CF7CB00012FCC /* HomeModel.swift */,
 				5BF236401F2D425300DB4137 /* FitnessTechniqueModel.swift */,
 				5BF236461F2D502300DB4137 /* TechniqueModel.swift */,
+				5B949EF21F81A12100D71F58 /* VideoManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -166,12 +172,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Rosalyn Kingsmill";
 				TargetAttributes = {
 					5B95250A1F2CEF8400012FCC = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 34LN5HWMST;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -214,6 +221,7 @@
 			files = (
 				5B9525111F2CEF8400012FCC /* HomeViewController.swift in Sources */,
 				5BF236411F2D425300DB4137 /* FitnessTechniqueModel.swift in Sources */,
+				5B949EF31F81A12100D71F58 /* VideoManager.swift in Sources */,
 				5BF236471F2D502300DB4137 /* TechniqueModel.swift in Sources */,
 				5B95252C1F2D0AAA00012FCC /* VideoCell.swift in Sources */,
 				5BF2363F1F2D3E4300DB4137 /* FitnessTechniqueController.swift in Sources */,
@@ -225,6 +233,7 @@
 				5B9525241F2CF3A600012FCC /* HomeCell.swift in Sources */,
 				5B9525281F2CF7CB00012FCC /* HomeModel.swift in Sources */,
 				5B95250F1F2CEF8400012FCC /* AppDelegate.swift in Sources */,
+				5B949EF11F819FB700D71F58 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +269,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -268,7 +279,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -311,7 +326,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -319,7 +336,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -354,7 +375,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hackingwithswift.Box24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -367,7 +389,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hackingwithswift.Box24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
