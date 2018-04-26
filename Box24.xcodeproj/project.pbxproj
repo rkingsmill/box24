@@ -27,9 +27,11 @@
 		5BF236431F2D42B700DB4137 /* MoreWorkoutsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF236421F2D42B700DB4137 /* MoreWorkoutsCell.swift */; };
 		5BF236451F2D4F2100DB4137 /* TechniqueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF236441F2D4F2100DB4137 /* TechniqueController.swift */; };
 		5BF236471F2D502300DB4137 /* TechniqueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF236461F2D502300DB4137 /* TechniqueModel.swift */; };
+		D2B85B77F8C1F22AF25A9316 /* Pods_Box24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB6223C1A67D2C44AA208FD /* Pods_Box24.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FB6223C1A67D2C44AA208FD /* Pods_Box24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Box24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B949EF01F819FB700D71F58 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		5B949EF21F81A12100D71F58 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 		5B95250B1F2CEF8400012FCC /* Box24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Box24.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,8 @@
 		5BF236421F2D42B700DB4137 /* MoreWorkoutsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreWorkoutsCell.swift; sourceTree = "<group>"; };
 		5BF236441F2D4F2100DB4137 /* TechniqueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechniqueController.swift; sourceTree = "<group>"; };
 		5BF236461F2D502300DB4137 /* TechniqueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechniqueModel.swift; sourceTree = "<group>"; };
+		C1C466FB66399CB311F0D4D7 /* Pods-Box24.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Box24.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Box24/Pods-Box24.debug.xcconfig"; sourceTree = "<group>"; };
+		FADE0FBE5F42C7928257D711 /* Pods-Box24.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Box24.release.xcconfig"; path = "Pods/Target Support Files/Pods-Box24/Pods-Box24.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			files = (
 				5BA5A0F11F3FEE4C00E1F8EB /* AVKit.framework in Frameworks */,
 				5BA5A0EF1F3FEE3F00E1F8EB /* AVFoundation.framework in Frameworks */,
+				D2B85B77F8C1F22AF25A9316 /* Pods_Box24.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,7 @@
 				5B95250D1F2CEF8400012FCC /* Box24 */,
 				5B95250C1F2CEF8400012FCC /* Products */,
 				5BA5A0ED1F3FEE3F00E1F8EB /* Frameworks */,
+				B60582098C286C8F868A8A35 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +147,18 @@
 			children = (
 				5BA5A0F01F3FEE4C00E1F8EB /* AVKit.framework */,
 				5BA5A0EE1F3FEE3F00E1F8EB /* AVFoundation.framework */,
+				4FB6223C1A67D2C44AA208FD /* Pods_Box24.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B60582098C286C8F868A8A35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1C466FB66399CB311F0D4D7 /* Pods-Box24.debug.xcconfig */,
+				FADE0FBE5F42C7928257D711 /* Pods-Box24.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B95251D1F2CEF8400012FCC /* Build configuration list for PBXNativeTarget "Box24" */;
 			buildPhases = (
+				2472D9C0C028DBF6AE32647C /* [CP] Check Pods Manifest.lock */,
 				5B9525071F2CEF8400012FCC /* Sources */,
 				5B9525081F2CEF8400012FCC /* Frameworks */,
 				5B9525091F2CEF8400012FCC /* Resources */,
+				C67461CA239D505389A35DBB /* [CP] Embed Pods Frameworks */,
+				B1821494B24A1A197E5FDA64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +232,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2472D9C0C028DBF6AE32647C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Box24-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1821494B24A1A197E5FDA64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Box24/Pods-Box24-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67461CA239D505389A35DBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Box24/Pods-Box24-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Box24/Pods-Box24-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B9525071F2CEF8400012FCC /* Sources */ = {
@@ -368,6 +443,7 @@
 		};
 		5B95251E1F2CEF8400012FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C466FB66399CB311F0D4D7 /* Pods-Box24.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34LN5HWMST;
@@ -382,6 +458,7 @@
 		};
 		5B95251F1F2CEF8400012FCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADE0FBE5F42C7928257D711 /* Pods-Box24.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34LN5HWMST;

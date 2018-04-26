@@ -16,10 +16,10 @@ class VideoManager: NSObject {
     func getVideoAsset() -> AVAsset? {
         //var assetCollection = PHAssetCollection()
         var video: AVAsset?
-        let fetchOptions = PHFetchOptions()
-        fetchOptions.predicate = NSPredicate(format: "title contains[c] bbg")
+        //let fetchOptions = PHFetchOptions()
+        //fetchOptions.predicate = NSPredicate(format: "title contains[c] bbg")
         
-        let assets: PHFetchResult = PHAsset.fetchAssets(with: .video, options: fetchOptions)
+        let assets: PHFetchResult = PHAsset.fetchAssets(with: .video, options: nil)
             print(assets.count)
             if let phVideo: PHAsset = assets.firstObject {
                 if let avVideo = convert(asset:phVideo) {
